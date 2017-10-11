@@ -2,6 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
+  "website": "https://nerdslab.github.io/xbrain-website/",
   "dependencies": {
     "material-ui": "next",
     "material-ui-icons": "^1.0.0-beta.15",

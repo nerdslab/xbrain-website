@@ -1,3 +1,19 @@
+# Usage
+
+## To deploy new site:
+```
+npm run predeploy
+npm run deploy
+```
+
+
+## Development Server
+```
+npm run start
+```
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

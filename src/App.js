@@ -153,8 +153,8 @@ class App extends Component {
                     </div>
 
 
-                    <Route exact path="/" component={Home}/>
-                    <Route exact path="/tools" component={Tools}/>
+                    <Route path="/" component={Home}/>
+                    <Route path="tools" component={Tools}/>
                 </div>
             </Router>
         );

@@ -34,20 +34,7 @@ const style = {
         maxWidth: "60em",
         margin: "auto"
     }
-}
-
-// class Hero extends Component {
-//     render() {
-//         return (
-//             <div style={{
-//                 height: this.props.height,
-//                 width: "100%",
-//                 backgroundSize: "cover",
-//                 backgroundImage: `url(${this.props.src})`
-//             }} />
-//         )
-//     }
-// }
+};
 
 class Hero extends Component {
     render() {
@@ -144,10 +131,17 @@ class App extends Component {
                                     xbrain
                                     </Typography>
                                 </Link>
-                                <Button href="https://github.com/nerdslab/xbrain" color="contrast">Code</Button>
-                                <Button href="https://doi.org/10.1523/ENEURO.0195-17.2017" color="contrast">Manuscript</Button>
-                                <Button href="#/tools" color="contrast">Tools</Button>
-                                <Button href="https://github.com/nerdslab/xbrain/data" color="contrast">Data</Button>
+                                <div style={{
+                                    textAlign: "right",
+                                    width: "100%",
+                                    marginLeft: "auto",
+                                    marginRight: 0
+                                }}>
+                                    <Button href="https://github.com/nerdslab/xbrain" color="contrast">Code</Button>
+                                    <Button href="https://doi.org/10.1523/ENEURO.0195-17.2017" color="contrast">Manuscript</Button>
+                                    <Button href="https://nerdslab.github.io/#/tools" color="contrast">Tools</Button>
+                                    <Button href="https://github.com/nerdslab/xbrain/data" color="contrast">Data</Button>
+                                </div>
                             </Toolbar>
                         </AppBar>
                     </div>

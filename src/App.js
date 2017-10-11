@@ -139,7 +139,7 @@ class App extends Component {
                                 }}>
                                     <Button href="https://github.com/nerdslab/xbrain" color="contrast">Code</Button>
                                     <Button href="https://doi.org/10.1523/ENEURO.0195-17.2017" color="contrast">Manuscript</Button>
-                                    <Button href="https://nerdslab.github.io/#/tools" color="contrast">Tools</Button>
+                                    <Button href="#/tools" color="contrast">Tools</Button>
                                     <Button href="https://github.com/nerdslab/xbrain/data" color="contrast">Data</Button>
                                 </div>
                             </Toolbar>
@@ -147,8 +147,8 @@ class App extends Component {
                     </div>
 
 
-                    <Route path="/" component={Home}/>
-                    <Route path="tools" component={Tools}/>
+                    <Route exact path="/" component={Home}/>
+                    <Route path="/tools" component={Tools}/>
                 </div>
             </Router>
         );

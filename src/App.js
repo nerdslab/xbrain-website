@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Route,
     Link
 } from 'react-router-dom';
@@ -146,7 +146,7 @@ class App extends Component {
                                 </Link>
                                 <Button href="https://github.com/nerdslab/xbrain" color="contrast">Code</Button>
                                 <Button href="https://doi.org/10.1523/ENEURO.0195-17.2017" color="contrast">Manuscript</Button>
-                                <Button href="/tools" color="contrast">Tools</Button>
+                                <Button href="#/tools" color="contrast">Tools</Button>
                                 <Button href="https://github.com/nerdslab/xbrain/data" color="contrast">Data</Button>
                             </Toolbar>
                         </AppBar>
